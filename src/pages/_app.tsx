@@ -79,38 +79,38 @@ function MyApp(props: MyAppProps) {
     <CacheProvider value={emotionCache}>
       <Head>
         <meta charSet="utf-8" />
-        <title>YOUHA V6 DEMO</title>
+        <title>Student Dance Fighter</title>
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         <meta
           name="keywords"
-          content="jellysmack, 젤리스맥, youha, 유하, 펀딩, 크리에이터, 한도조회"
+          content="르세라핌, LE SSERAFIM, youha, 유하, 스튜던트 댄스 파이터, 스댄파, Student Dance Fighter"
         />
-        <meta name="description" content="YOUHA V6 DEMO" />
+        <meta name="description" content="Student Dance Fighter" />
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="YOUHA V6 DEMO" />
-        <meta property="og:title" content="YOUHA V6 DEMO" />
-        <meta property="og:description" content="YOUHA V6 DEMO" />
-        {/* <meta property="og:image" content="/images/favicon/share.png" /> */}
+        <meta property="og:site_name" content="Student Dance Fighter" />
+        <meta property="og:title" content="Student Dance Fighter" />
+        <meta property="og:description" content="르세라핌 신곡 챌린지 : 500만원 상금과 직접 르세라핌을 만나는 기회!" />
+        <meta property="og:image" content="/images/favicon/share.png" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
-        <meta property="og:url" content="https://youha-v6-demo.vercel.app/" />
+        <meta property="og:url" content="https://www.studentdancefighter.com/" />
         <meta name="twitter:card" content="summary" data-react-helmet="true" />
         <meta name="twitter:creator" content="" data-react-helmet="true" />
         <meta
           name="twitter:title"
-          content="YOUHA V6 DEMO"
+          content="Student Dance Fighter"
           data-react-helmet="true"
         />
         <meta
           name="twitter:description"
-          content="YOUHA V6 DEMO"
+          content="르세라핌 신곡 챌린지 : 500만원 상금과 직접 르세라핌을 만나는 기회!"
           data-react-helmet="true"
         />
-        {/* <meta name="twitter:image" content="/images/favicon/share.png" /> */}
+        <meta name="twitter:image" content="/images/favicon/share.png" />
         <meta name="HandheldFriendly" content="true" />
         <link
           rel="shortcut icon"

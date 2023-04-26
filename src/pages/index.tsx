@@ -32,7 +32,16 @@ export default function Index() {
             p: `8px 16px`,
           }}
         >
-          <Button fullWidth backgroundColor="#0ED5BC" size='lg'>지금 참가신청하기</Button>
+          <Button
+            fullWidth
+            backgroundColor="#0ED5BC"
+            size="lg"
+            onClick={() => {
+              window.open("https://forms.gle/YyejT1GMVznmmmdEA");
+            }}
+          >
+            지금 참가신청하기
+          </Button>
         </Box>
       </Box>
     </>
