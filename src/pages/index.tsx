@@ -17,6 +17,7 @@ export default function Index() {
       >
         <img src="/images/poster.png" />
       </Box>
+      
       <Box
         sx={{
           position: "fixed",
